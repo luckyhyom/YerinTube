@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo i {
+  padding: 0px 8px;
+  font-size: 32px;
+  color: red;
+}
+
+.logo p {
+  color: white;
+  text-transform: uppercase;
+}
+
+header .searchBar {
+  color: white;
+  padding: 0px 12px;
+}
+
+.searchBar i {
+  padding: 0px 5px;
+}
+
+.video {
+}
+
+.video iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid {
+  display: flex;
+}
+.information .title {
+  margin: 0;
+}
+
+.trbtn {
+  border: none;
+  background-color: white;
+}
+
+.information .hashtag {
+  list-style: none;
+  color: rgb(62, 38, 216);
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.hashtag li {
+  padding: 0px 5px;
+  font-size: 14px;
+}
+
+.views {
+  display: flex;
+  color: gray;
+  font-size: 12px;
+}
+.views p {
+  margin: 0;
+  padding: 0 3px;
+}
+
+.total {
+  padding: 5px 12px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 20px 4px;
+  margin: 0;
+}
+
+.buttons li {
+  padding: 0px 8px;
+}
+
+.buttons button {
+  border: none;
+  background-color: white;
+}
+
+.buttons p {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.buttons button {
+  font-size: 20px;
+}
+
+#good {
+  color: #2f6bda;
+}
+
+.bottom {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.bottom .profile {
+  display: flex;
+  align-items: center;
+}
+.photo {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 10px 5px;
+  border-radius: 5%;
+}
+
+.photos {
+}
+
+.photos li {
+  display: flex;
+  align-items: center;
+}
+
+.photos img {
+  width: 40%;
+}
+
+.photos ul {
+  padding: 0;
+  margin: 0;
+}
+
+.photos li {
+  padding: 5px 0px;
+  margin: 0px;
+}
+
+.photos ul > p {
+  padding: 0px;
+  margin: 0;
+}
+
+#title {
+  font-size: 14px;
+  padding: 0 12px;
+  margin: 0;
+}
+
+#sub {
+  font-size: 12px;
+  padding: 0 12px;
+  margin: 0;
+  color: gray;
+}
+
+#sub2 {
+  font-size: 12px;
+  padding: 0px 12px;
+  margin: 0;
+  color: gray;
+}
+
+.beautiful {
+  padding: 0;
+  margin: 0;
+}
